@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto-Regular'),
+        url('../fonts/Roboto-Regular.ttf');
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+article p {
+    display: block;
+    text-align: justify;
+    padding: 10%;
+    font-size: 0.9em;
+}
+
+button{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    bottom: 10px;
+    background-color: #00669F;
+    color: #ffffff;
+    padding: 6%;
+    border: 0px;
+    font-size: 1.1em;
+    font-weight: 500;
+
+}
+
+#cards {
+
+    margin: 10%;
+    
+   
+}
+article {
+    display: inline-block;
+    background-color: #F3F3F3;
+    width: 30%;
+    height: auto;
+    margin: 1%;
+
+}
+.content {
+    position: relative;
+    
+}
+
+.corazon {
+    position: absolute;
+    left: 0.7em;
+    top: 0.7em;
+    width: 10%;
+    height: auto;
+}
+.fondo {
+    width: 100%;    
+}
+
+.perfil {
+    position: relative;
+    left: 30%;
+    top: -4em;
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: 0px 10px 7px;
+
+}
+
+
+
+#hero {
+    position: sticky;
+    background-color: #00669F;
+    padding: 1%;
+    width: 100%;
+    border-width: 1px;
+    box-shadow: 0px 10px 7px rgb(0,0,0,0.3);
+  
+}
+#topheader {
+    background-color: #1CD1B0;
+    width: 100%;
+    padding:  1%;
+
+}
+
+footer {
+    background-color: #00669F;
+    width: 100%;
+    color: #ffffff;
+}
+
+#copyright {
+    padding: 1%;
+}
