@@ -68,6 +68,61 @@
             </article>
         </section>
     </main>
+
+    <!- Jugando con formularios y pseudo-selectores->
+   
+    <h2> Login </h2>
+   <section id="login" > <br>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@contoso.com">
+        <br><br>
+        <input type="password" id="passwd" name="passwd" placeholder="contraseña">
+        <br><br>
+        <input type="button" id="entrar" name="entrar" value="Entrar">  <br>
+        <label id="enter" for="entrar" >No tenes una cuenta ? <span> Registrarme.</span></label>
+    </section>
+    <br><br>
+
+    <h2> Registro </h2>
+    <section id="login" > <br>
+         <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido">
+         <br><br>
+         <input type="email" id="correo" name="correo" placeholder="ejemplo@contoso.com">
+         <br><br>
+         <input type="password" id="passwd" name="passwd" placeholder="contraseña">
+         <br><br>
+         <input list="country" name="country" class="datalist-input" placeholder="Pais" />
+            <datalist id="country">
+                <option value="Argentina" />
+                <option value="Brasil" />
+                <option value="Colombia" />
+            </datalist>
+
+         <br><br>
+         <input type="reset" id="reset" name="reset" value="Resetear" >
+         <input type="button" id="registrar" name="registrar" value="Registrar">  <br>
+         <label id="enter" for="entrar" >Ya tienes una cuenta ? <span> Ingresá.</span></label>
+     </section>
+
+     <br><br>
+     <h2> Contacto </h2>
+     <section id="login" > <br>
+          <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido">
+          <br><br>
+          <input type="email" id="correo" name="correo" placeholder="ejemplo@contoso.com">
+          <br><br>
+          <textarea id="textarea" name="textarea"> comentarios </textarea>
+ 
+          <br><br>
+          <input type="reset" id="reset" name="reset" value="Resetear" >
+          <input type="button" id="registrar" name="registrar" value="Registrar">  <br>
+    </section>
+    <!- Acá termina el formulario -> 
+
+
+   
+   <br><br><br><br>
+    
+    <br><br>
     <footer>
         <section id="copyright">
             <span>Todos los derechos reservados a FRONT END 1</span>

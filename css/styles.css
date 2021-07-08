@@ -50,6 +50,29 @@ button{
     background-color: #F3F3F3;
 }
 
+/* Jugando con formularios */
+#login { display: flexbox; flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    position: relative; left: 36rem;}
+
+#entrar {background-color: #1CD1B0; color: black;
+border-radius: 20px; width: 15%; border-color: white;}
+
+#registrar {background-color: #1CD1B0; color: black;
+    border-radius: 20px; width: 8%; border-color: white;}
+
+#reset {background-color: #888888; color: blanchedalmond;
+    border-radius: 20px; width: 8%; border-color: white;}
+
+#textarea {width: 15%; height: auto;}
+
+#enter {font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 0.8rem; color: #00669F;} 
+label span {color: black;}
+
+/* Fin del juego de formularios */
+
 /* This styles will apply to larger screens */
 @media only screen and (min-width : 600px) {
     .card {
@@ -110,6 +133,7 @@ footer {
 #copyright {
     padding: 1%;
 }
+
 
 
 
